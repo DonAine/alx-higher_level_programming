@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     session = Session(engine)
     data = session.query(State).order_by(State.id)\
-            .filter(State.name.like("%a%")).all()
+        .filter(State.name.like("%a%")).all()
     for row in data:
         print("{}: {}".format(row.id, row.name))
     session.close()
