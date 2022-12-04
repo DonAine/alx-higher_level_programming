@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-a script that lists all State objects
+a script that lists all City objects
 '''
 
 
